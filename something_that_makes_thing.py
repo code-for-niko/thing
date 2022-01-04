@@ -5,7 +5,7 @@ driver = webdriver.Chrome()
 
 driver.get("https://glorysmacks.com/signup/create")
 xpath_mail = '//*[@id="pageContent"]/div/div/div[1]/div/input'
-driver.find_element_by_xpath(xpath_mail).send_keys("nicolaupaneleiro@gmail.com")
+driver.find_element_by_xpath(xpath_mail).send_keys("ciguelaneleiro@gmail.com")
 
 xpath_pw = '//*[@id="pageContent"]/div/div/div[2]/div/input'
 driver.find_element_by_xpath(xpath_pw).send_keys("conacona123")
