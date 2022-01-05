@@ -18,7 +18,6 @@ driver.execute_script("arguments[0].click();", button);
 #xpath_area = '//*[@id="pageContent"]/div/div/div[1]/div/select' # --> program closes before opening country page
 xpath_area = '//*[@id="pageContent"]/div/div/div[1]'
 driver.find_element_by_xpath(xpath_area).send_keys # --> program open country page but does not select country box
-# solution 01 #
 #button_area =#
 driver.find_element_by_xpath(xpath_area).click()
 #driver.execute_script("arguments[0].click();", button_area);  # --> doesn't work, still doesnt click country box
