@@ -16,12 +16,12 @@ cbox_path = '//*[@id="pageContent"]/div/div/div[3]/div'
 button = driver.find_element_by_xpath(cbox_path)
 driver.execute_script("arguments[0].click();", button)
 
-css_selector_area = '#pageContent > div > div > div.jss50.PhoneInput > div > select'
-driver.find_element_by_css_selector(css_selector_area).click(css_selector_area)
+# css_selector_area = '#pageContent > div > div > div.jss50.PhoneInput > div > select'
+# driver.find_element_by_css_selector(css_selector_area).click(css_selector_area) --> program closes before opening country page
 
 # Select country 
-#country = Select(driver.find_element_by_))
-#country.select_by_visible_text('Russia')
+# country = Select(driver.find_element_by_))
+# country.select_by_visible_text('Russia')
 
 
 # xpath_area = '//*[@id="pageContent"]/div/div/div[1]/div/select' # --> program closes before opening country page
