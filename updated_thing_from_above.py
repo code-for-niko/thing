@@ -6,7 +6,7 @@ from time import time
 
 driver = webdriver.Chrome()
 
-driver.get("https://glorysmacks.com/signup/create")
+driver.get("url")
 xpath_mail = '//*[@id="pageContent"]/div/div/div[1]/div/input'
 #driver.find_element_by_xpath(xpath_mail).send_keys("ciguelpanilas@gmail.com")
 driver.find_element(By.XPATH, (xpath_mail)).send_keys("ciguelpanilas@gmail.com")
